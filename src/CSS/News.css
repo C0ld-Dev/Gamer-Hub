@@ -1,0 +1,26 @@
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-list li{
+    letter-spacing: 4px;
+    margin-left: 43px;
+  }
+  
+  nav-list ul li ul.dropdown li{
+    display: block;
+  }
+  
+  nav-list ul li ul.dropdown li{
+    width: 100%;
+    background: black;
+    position: absolute;
+    z-index: 999;
+    display: none;
+  }
